@@ -15,7 +15,7 @@ public class TxnReadDataKinesis {
 	//This application name is created as a table in amazon dynamo DB
 	private static final String APPLICATION_NAME = "TxnKCLKPL";
 	//This is the stream name created in the Kinesis
-	private static final String STREAM_NAME = "kinesis-logging-stream";
+	private static final String STREAM_NAME = "your kinesis stream name";
 
 	public static void main(String[] args) throws Exception {
 		String workerId = InetAddress.getLocalHost().getCanonicalHostName() + ":" + UUID.randomUUID();
